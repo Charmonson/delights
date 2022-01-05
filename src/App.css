@@ -1,4 +1,19 @@
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.card-title {
+  font: 500 4rem "Parisienne";
+}
+
+.card-img-overlay .card-title {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
 
 .full-screen-video-container {
   position: relative;
@@ -21,31 +36,30 @@
   left:50%;
   transform: translate(-50%, -50%);
 
-  @media (min-aspect-ratio: 16/9) {
-    #videoBG {
-        width:100%;
-        height: auto;
-    }
-  }
-  
-  @media (max-aspect-ratio: 16/9) {
-    #videoBG {
-      width:auto;
-      height: 100%;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    #videoBG {
-      display: none;
-    }
-    body {
-      background: url('/src/images/croissant.png');
-      background-size: cover,
-    }
-  }
-
 }
 
+/*
+@media (min-aspect-ratio: 16/9) {
+  #videoBG {
+      width:100%;
+      height: auto;
+  }
+}
 
+@media (max-aspect-ratio: 16/9) {
+  #videoBG {
+    width:auto;
+    height: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  #videoBG {
+    display: none;
+  }
+  body {
+    background: url('/src/images/croissant.png');
+    background-size: cover,
+  }
+}*/
 

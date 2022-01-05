@@ -4,7 +4,6 @@ import Menu from './components/MenuComponent';
 import './App.css';
 import { DELIGHTS } from './shared/delights';
 
-
 class App extends Component {
     constructor(props) {
         super(props);

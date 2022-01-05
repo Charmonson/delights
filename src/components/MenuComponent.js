@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle } from 'reactstrap';
+import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
+import DelightInfo from "./DelightInfoComponent";
 
 class Menu extends Component {
     constructor(props) {
@@ -13,25 +14,11 @@ class Menu extends Component {
         this.setState({selectedDelight: delight});
     }
 
-    renderSelectedDelight(delight) {
-        if (delight) {
-            return (
-                <Card>
-                    <CardImg top src={delight.image} alt={delight.name} />
-                    <CardBody>
-                        <CardTitle>{delight.name}</CardTitle>
-                        <CardText>{delight.description}</CardText>
-                    </CardBody>
-                </Card>
-            );
-        }
-        return <div />;
-    }
 
     render() {
-        const directory = this.props.delights.map(delight => { /*array of elements to render*/
+        const menu = this.props.delights.map(delight => { /*array of elements to render*/
             return (
-                <div key={delight.id} className="col-md-6 m-1">
+                <div key={delight.id} className="col-md-4 m-1">
                     <Card onClick={() => this.onDelightSelect(delight)}>
                         <CardImg width="100%" src={delight.image} alt={delight.name} />
                         <CardImgOverlay>
@@ -41,18 +28,13 @@ class Menu extends Component {
                 </div>
       
             );
-        });
-        
+        })        
         return (
             <div className="container">   
                 <div className="row">
-                    {directory}
+                    {menu}
                 </div>
-                <div className="row">
-                    <div className="col-md-6 m-1">
-                        {this.renderSelectedDelight(this.state.selectedDelight)}
-                    </div>
-                </div>
+                <DelightInfo delight={this.state.selectedDelight}/>
             </div>
             
         );

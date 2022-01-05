@@ -1,30 +1,40 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
+import Home from './HomeComponent';
 import Menu from './MenuComponent';
+import Contact from './ContactComponent';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import DelightInfo from './DelightInfoComponent';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import { DELIGHTS } from '../shared/delights';
 
 class Main extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            delights: DELIGHTS,
-            selectedDelight:null
+            delights: DELIGHTS
         };
     }
 
-    onDelightSelect(delightId) {
-        this.setState({selectedDelight: delightId});
-    }
-
     render() {
+
+        const HomePage = () => {
+            return (
+                <Home />
+            );
+        };
+
+
+
+
         return (
             <div>
                 <Header/>
-                <Menu delights={this.state.delights} onClick={delightId => this.onDelightSelect(delightId)}/>
-                <DelightInfo delight={this.state.delights.filter(delight => delight.id === this.state.selectedDelight)[0]}/>
+                <Switch>
+                    <Route path='/home' component={HomePage} />
+                    <Route exact path='/menu' render={() => <Menu delights={this.state.delights} />} />
+                    <Redirect to='/home' />
+                </Switch>
                 <Footer/>
             </div>
         );

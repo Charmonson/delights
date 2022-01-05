@@ -12,7 +12,7 @@ class Menu extends Component {
         const menu = this.props.delights.map(delight => { /*array of elements to render*/
             return (
                 <div key={delight.id} className="col-md-4 m-1">
-                    <Card onClick={()=> this.props.onClick(delight.id)}>
+                    <Card>
                         <CardImg width="100%" src={delight.image} alt={delight.name} />
                         <CardImgOverlay>
                             <CardTitle>{delight.name}</CardTitle>

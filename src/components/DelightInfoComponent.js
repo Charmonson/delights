@@ -16,8 +16,8 @@ class DelightInfo extends Component {
             </div>)
         }
     }
-    
-    renderDelight(delight){
+
+    renderDelight(delight) {
         return (<div className="col-md-7 m-1">
             <Card>
                 <CardImg top src={delight.image} alt={delight.name} />
@@ -30,14 +30,18 @@ class DelightInfo extends Component {
     }
 
     render() {
-        const delight = this.props.delight;
-        if (delight){
-            return <div className="row">
-                {this.renderDelight(delight)}
-                {this.renderInformation(delight.information)}
-            </div>;
+        if (this.props.delight) {
+            return (
+                <div className="container">
+                    <div className="row">
+                        {this.renderDelight(this.props.delight)}
+                        {this.renderInformation(this.props.delight.information)}
+
+                    </div>
+                </div>
+            );
         }
-        return <div/>;
+        return <div />;
     }
 }
 

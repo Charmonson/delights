@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarBrand } from 'reactstrap';
-import Directory from './components/DirectoryComponent';
+import Home from './components/HomeComponent';
 import './App.css';
 
 class App extends Component {
@@ -12,7 +12,7 @@ class App extends Component {
                     <NavbarBrand href="/">S&S Delights by Catherine</NavbarBrand>
                 </div>
                 </Navbar>
-                <Directory/>
+                <Home/>
             </div>
         );
     }

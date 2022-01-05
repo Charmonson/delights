@@ -8824,6 +8824,16 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
+typeface-open-sans@^1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-open-sans/-/typeface-open-sans-1.1.13.tgz#32a09ebd7df59601e01ad81216f98ce641eeafd1"
+  integrity sha512-lVGVHvYl7UJDFB9vN8r7NHw3sVm7Rjeow6b9AeABc/J+2mDaCkmcdVtw3QZnsJW39P+xm5zeggIj9gLHYGn9Iw==
+
+typeface-parisienne@^1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-parisienne/-/typeface-parisienne-1.1.13.tgz#f8351a2500862b0affb4af6b249eba7ff38e6819"
+  integrity sha512-jRKBD2bNL88UuikJPyio4qBFpZ3Y6YtA2DGdMl8eOv7alyLqRj6Tg4gZZd23E4jvYHwm+umvcy8hjKUVaLsRGg==
+
 unbox-primitive@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/unbox-primitive/-/unbox-primitive-1.0.1.tgz#085e215625ec3162574dc8859abee78a59b14471"

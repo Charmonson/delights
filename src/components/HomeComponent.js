@@ -1,15 +1,17 @@
-import React from 'react';
+import React, {Component} from 'react';
 import FoodVideo from './video/bread.mp4';
+import FoodImage from '../images/confetti.jpg';
 import {Button} from './Button';
+import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
+class Home extends Component {
 
-function Home () {
-
-    return (
+    render() {
+        return (
         <div className='full-screen-video-container'>
             <video autoPlay loop muted>
                 <source src={FoodVideo} type='video/mp4'/>     
-            </video>
+            </video> 
 
             <div class= 'full-screen-video-content'>
             <Button className='btns' 
@@ -20,10 +22,12 @@ function Home () {
             </Button>
             <h1>Make your day</h1>
             <h1>More Delightful!</h1>
-        </div>
-           
-       </div>
-       
-    );
+            </div>
+        </div> 
+        );
+    }
 }
+
+
+
 export default Home;

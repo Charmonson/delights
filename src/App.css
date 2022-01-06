@@ -78,8 +78,8 @@ h2 {
 
 .full-screen-video-content {
   font-size: 100px;
-  margin-top: 20px;
-  color:#8d6d11;
+  margin-top: -30px;
+  
 }
 
 .full-screen-video-content> h1 {
@@ -87,7 +87,25 @@ h2 {
   font-size: 100px;
   font-weight: 700;
   text-shadow: 1px 1px 2px purple, 0 0 25px pink;
+
 }
+
+@media screen and (max-width: 960px) {
+  .full-screen-video-content > h1 {
+    font-size: 80px;
+ 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .full-screen-video-content > h1 {
+    font-size: 50px;
+   
+  }
+}
+
+
+
 /*
 @media (min-aspect-ratio: 16/9) {
   #videoBG {

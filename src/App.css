@@ -13,7 +13,7 @@ body {
 }
 
 h1, h2, h3{
-  font: "Parisienne";
+  font: "Tangerine";
   color: blue
 }
 
@@ -61,6 +61,7 @@ h2 {
   justify-content: center;
   align-items: flex-start;
 }
+/*Home Component Video*/
 
 .full-screen-video-container video {
   z-index: -1;
@@ -76,11 +77,17 @@ h2 {
 }
 
 .full-screen-video-content {
-  font-size: 80px;
+  font-size: 100px;
   margin-top: 20px;
   color:#8d6d11;
 }
 
+.full-screen-video-content> h1 {
+  color:white;
+  font-size: 100px;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px purple, 0 0 25px pink;
+}
 /*
 @media (min-aspect-ratio: 16/9) {
   #videoBG {

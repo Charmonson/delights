@@ -8,19 +8,18 @@ function Home () {
     return (
         <div className='full-screen-video-container'>
             <video autoPlay loop muted>
-                <source src={FoodVideo} type='video/mp4'/>
+                <source src={FoodVideo} type='video/mp4'/>     
             </video>
-            <div class= 'full-screen-video-content'>
-               
 
-            <div>
-                <Button className='btns' 
+            <div class= 'full-screen-video-content'>
+            <Button className='btns' 
                 buttonStyle='btn--primary'
-                buttonSize='btn--large'>
+                buttonSize='btn--large'
+                onClick={console.log('I want to Open Menu Tab')}>
                     GET MENU 
-                </Button>
-            </div>
-        
+            </Button>
+            <h1>Make your day</h1>
+            <h1>More Delightful!</h1>
         </div>
            
        </div>

@@ -4,7 +4,7 @@ body {
 }
 
 .card-title {
-  font: 500 3rem "Parisienne";
+  font: 500 3rem "Tangerine";
 }
 
 .card-img-overlay .card-title {
@@ -12,12 +12,9 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
-h1, h2, h3 {
-  font: "Parisienne", 
+h1, h2, h3{
+  font: "Parisienne";
+  color: blue
 }
 
 .card-title {
@@ -41,35 +38,28 @@ h2 {
 }
 
 .site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
+  background-color: #8f77a5;
   padding: 20px 0;
 }
 
-.jumbotron {
-  margin: 0;
-  padding: 30px;
-  background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-  color: white;
-}
-
-.jumbotron h2 {
-  color: #CEC8FF;
+.navbar-brand 
+{
+  font: 500 3rem "tangerine";
+ 
 }
 
 .navbar-dark {
-  background-color: #901CAD;
+  background-color: #8f77a5;
 }
-
-
 
 .full-screen-video-container {
   position: relative;
-  height: 100vh;
+  height: 70vh;
   width: 100vw;
   overflow: hidden;
-
-  
-
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .full-screen-video-container video {
@@ -83,6 +73,12 @@ h2 {
   left:50%;
   transform: translate(-50%, -50%);
 
+}
+
+.full-screen-video-content {
+  font-size: 80px;
+  margin-top: 20px;
+  color:#8d6d11;
 }
 
 /*

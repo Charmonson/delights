@@ -8922,6 +8922,16 @@ typeface-parisienne@^1.1.13:
   resolved "https://registry.yarnpkg.com/typeface-parisienne/-/typeface-parisienne-1.1.13.tgz#f8351a2500862b0affb4af6b249eba7ff38e6819"
   integrity sha512-jRKBD2bNL88UuikJPyio4qBFpZ3Y6YtA2DGdMl8eOv7alyLqRj6Tg4gZZd23E4jvYHwm+umvcy8hjKUVaLsRGg==
 
+typeface-petit-formal-script@^1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-petit-formal-script/-/typeface-petit-formal-script-1.1.13.tgz#01672aeb4b473189d22e9d3ae7ba3b99988b1ae2"
+  integrity sha512-TrCOURHze40w7P22Q+J6tX0H022PsDH3D/+BzCkv8IcspDLRbe007gXPO0OcrpP86Omftj6niSU4s4cUCNlbFg==
+
+typeface-tangerine@^1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-tangerine/-/typeface-tangerine-1.1.13.tgz#93c3a4dfe27da2721ff4798d6c98b8e5426495bd"
+  integrity sha512-zaawdqNF/+3oknJ8e9PrPak2g5CPCy5cp/+GNbwAp/tBf2qm6TgZHU+10pXZjv3OAALGZyVsvtCQd3fgiEXA3A==
+
 unbox-primitive@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/unbox-primitive/-/unbox-primitive-1.0.1.tgz#085e215625ec3162574dc8859abee78a59b14471"

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'typeface-parisienne';
+import 'typeface-tangerine';
 import 'typeface-open-sans';
 import 'font-awesome/css/font-awesome.css';
 import App from './App';

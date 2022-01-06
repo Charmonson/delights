@@ -4,10 +4,6 @@ import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
 
 class Menu extends Component {
 
-
-
-
-
     render() {
         const menu = this.props.delights.map(delight => { /*array of elements to render*/
             return (

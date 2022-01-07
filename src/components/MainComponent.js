@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import Home from './HomeComponent';
 import Menu from './MenuComponent';
-import Contact from './ContactComponent';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
-import DelightInfo from './DelightInfoComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { DELIGHTS } from '../shared/delights';
 
@@ -23,8 +21,6 @@ class Main extends Component {
                 <Home />
             );
         };
-
-
 
 
         return (

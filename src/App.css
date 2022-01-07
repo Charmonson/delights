@@ -1,6 +1,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+ 
 }
 
 .card-title {
@@ -13,8 +14,8 @@ body {
 }
 
 h1, h2, h3{
-  font: "Tangerine";
-  color: blue
+  font: "tangerine";
+ 
 }
 
 .card-title {
@@ -22,9 +23,6 @@ h1, h2, h3{
   font-size: 1.25rem;
 }
 
-h2 {
-  color: #3046C5;
-}
 
 .card-img-overlay .card-title {
   color: white;
@@ -106,28 +104,5 @@ h2 {
 
 
 
-/*
-@media (min-aspect-ratio: 16/9) {
-  #videoBG {
-      width:100%;
-      height: auto;
-  }
-}
 
-@media (max-aspect-ratio: 16/9) {
-  #videoBG {
-    width:auto;
-    height: 100%;
-  }
-}
-
-@media (max-width: 767px) {
-  #videoBG {
-    display: none;
-  }
-  body {
-    background: url('/src/images/croissant.png');
-    background-size: cover,
-  }
-}*/
 

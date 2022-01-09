@@ -9,6 +9,7 @@ import 'typeface-open-sans';
 import 'font-awesome/css/font-awesome.css';
 import App from './App';
 
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

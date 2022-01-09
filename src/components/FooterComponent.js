@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from './Button';
+import { NavLink } from 'react-router-dom';
 
 
 function Footer() {
@@ -9,8 +10,11 @@ function Footer() {
         <p className='footer-subscription-heading'>
           Let me know which delights I can make for you!
         </p>
-
-        <Button buttonStyle='btn--outline'>Contact</Button>
+        <Button buttonStyle='btn--outline'>
+            <NavLink className="nav-link2" to={"/contact"}>
+                Contact
+            </NavLink>
+            </Button>
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>

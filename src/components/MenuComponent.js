@@ -5,6 +5,7 @@ import Event from '../images/events.jpg';
 import Event2 from '../images/events3.jpg';
 import Event3 from '../images/events4.jpg';
 
+
 class Menu extends Component {
     constructor(props) {
         super(props);

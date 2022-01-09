@@ -1,8 +1,11 @@
 import React from 'react';
 import FoodVideo from './video/bread.mp4';
 import {Button} from './Button';
+import { NavLink } from 'react-router-dom';
+
 
 function HeroComponent() {
+  
     return (
         <div className='full-screen-video-container'>
             <video autoPlay loop muted>
@@ -16,9 +19,10 @@ function HeroComponent() {
             <Button className='btns' 
                 buttonStyle='btn--primary'
                 buttonSize='btn--large'
-                onClick={console.log('I want to Open Menu Tab')}>
-                    GET MENU 
-                   
+                >
+            <NavLink className="nav-link" to={"/menu"}>
+                Menu
+            </NavLink>
             </Button>
             </div>
         </div> 

@@ -4,6 +4,7 @@ import HeroComponent from './HeroComponent';
 import GalleryComponent from './GalleryComponent';
 
 
+
 /*change this component like the tutorial*/
 
 function Home() {

@@ -23,25 +23,19 @@ h1 {
 }
 
 .card-title {
-  font: 500 3rem "Tangerine";
+  font: 600 3rem "Tangerine";
 }
 /*?? will use?*/
 .card-img-overlay .card-title {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  color: purple;
+  background-color: rgba(214,205,222, 0.9);
 }
-
 
 .card-title {
   font-weight: 500;
-  font-size: 1.25rem;
+  font-size: 3rem;
 }
 
-
-.card-img-overlay .card-title {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-}
 
 .row-content {
   padding: 50px 0;
@@ -68,7 +62,7 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .navbar-brand { 
-    font: 500 1.5rem "tangerine";
+    font: 500 1rem "tangerine";
   }
 }
 

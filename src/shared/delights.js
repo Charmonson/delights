@@ -1,22 +1,14 @@
 export const DELIGHTS = [
     {   
         id:0,
-            name:'Wonderland Bakery',
-            image: require('../images/caramel.jpg'),
-            description: "Life is what you bake it ",
-            information: [
-                {
-                    id: 0,
-                    text: "Wonderful flavor!",
-                    author: "Susan",
-                    allergens: "Allergens: Milk & Wheat",
-                  
-                },]   
+            name:'Apricot Ginger Scones',
+            image: require('../images/apricot.jpg'),
+            description: "Life is better with Ginger",  
         },
         {   
         id:1,
-            name:'Berry Short Cake',
-            image: require('../images/caramel.jpg'),
+            name:'Cranberry Orange Scones',
+            image: require('../images/cranorange.jpg'),
             description: "Small but mighty flavor!",
             information: [
                 {
@@ -29,8 +21,8 @@ export const DELIGHTS = [
         },
         {	
         id:2,
-            name:'Raspberry Dream',
-            image: require('../images/caramel.jpg'),
+            name:'Cherry Almond Scones',
+            image: require('../images/cherry.png'),
             description: "Sweet dreams are made of these.",
             information: [
                 {
@@ -43,8 +35,8 @@ export const DELIGHTS = [
         },
         {	
         id:3,
-            name:"Glutten Free Options ",
-            image: require('../images/caramel.jpg'),
+            name:"Blackberry Earl Scones",
+            image: require('../images/blackberry-scones.jpg'),
             description: "Pure, healthy and yummy.",
             information: [
                 {
@@ -57,8 +49,8 @@ export const DELIGHTS = [
         },
         {	
         id:4,
-            name:"No Birthday Cupcake",
-            image: require('../images/caramel.jpg'),
+            name:"Large Cookie Tray",
+            image: require('../images/chocolate2.jpg'),
             description: "Red velvet goodness for no birthday days.",
             information: [
                 {
@@ -71,8 +63,8 @@ export const DELIGHTS = [
         },
         {
         id:5,
-            name:"Vanilla Delight",
-            image: require('../images/caramel.jpg'),
+            name:"Small Cookie Tray",
+            image: require('../images/chocolate2.jpg'),
             description: "Flavorful elegance for every day.",
             information: [
                 {
@@ -85,9 +77,9 @@ export const DELIGHTS = [
         },
         {
             id:6,
-                name:"Vanilla Delight",
-                image: require('../images/caramel.jpg'),
-                description: "Flavorful elegance for every day.",
+                name:"Apple Caramel Cake",
+                image: require('../images/apple.jpg'),
+                description: "Customizable Upon Request",
                 information: [
                     {
                         id: 4,
@@ -99,9 +91,9 @@ export const DELIGHTS = [
             },
             {
                 id:7,
-                    name:"Vanilla Delight",
-                    image: require('../images/caramel.jpg'),
-                    description: "Flavorful elegance for every day.",
+                    name:"Savory Treats",
+                    image: require('../images/cucumber.jpg'),
+                    description: "Customizable Upon Request",
                     information: [
                         {
                             id: 4,
@@ -111,18 +103,5 @@ export const DELIGHTS = [
                           
                         },]
             },
-            {
-                id:8,
-                    name:"Vanilla Delight",
-                    image: require('../images/caramel.jpg'),
-                    description: "Flavorful elegance for every day.",
-                    information: [
-                        {
-                            id: 4,
-                            text: "Delightful Flavor!",
-                            author: "Ana",
-                            allergens: "Allergens: Milk & Wheat",
-                          
-                        },]
-            },       
+     
 ];

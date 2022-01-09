@@ -1,31 +1,32 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { Card, CardImg, CardGroup } from 'reactstrap';
+import Picture3 from '../images/Cat3.JPG';
+import Picture4 from '../images/order.jpg';
 
-function Contact(props) {
-    return (
-        <div className="container">
-            <div className="row">
-                <div className="col">
-                    <h2>Contact Us</h2>
-                    <hr />
+class Contact extends Component {
+
+    render() {
+        return (
+            <div className='cards__container'>
+
+                <div className='cards__wrapper'>
+                <h1 id="Subtitle">I'm delighted you're here! </h1>
+                    <div className='cards__items'>
+
+                        <CardGroup>
+                            <Card>
+                                <CardImg width="100%" src={Picture3} />
+                            </Card>
+                            <Card>
+                                <CardImg width="100%" src={Picture4} />
+                            </Card>
+                        </CardGroup>
+                    </div>
+                    <h1 id="Subtitle">Baking some goodness for you... </h1>
                 </div>
             </div>
-
-            <div className="row row-content align-items-center">
-                <div className="col-sm-4">
-                    <h5>Our Address</h5>
-                    <address>
-                        1 Nucamp Way<br />
-                        Seattle, WA 98001<br />
-                        U.S.A.
-                    </address>
-                </div>
-                <div className="col">
-                    <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone" /> 1-206-555-1234</a><br />
-                    <a role="button" className="btn btn-link" href="mailto:fakeemail@fakeemail.co"><i className="fa fa-envelope-o" /> campsites@nucamp.co</a>
-                </div>
-            </div>
-        </div>
-    );
+        );
+    }
 }
 
 export default Contact;

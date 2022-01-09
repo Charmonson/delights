@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Home from './HomeComponent';
 import Menu from './MenuComponent';
+import Contact from './ContactComponent';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
@@ -18,7 +19,7 @@ class Main extends Component {
 
         const HomePage = () => {
             return (
-                <Home />
+                <Home/>
             );
         };
 
@@ -29,6 +30,7 @@ class Main extends Component {
                 <Switch>
                     <Route path='/home' component={HomePage} />
                     <Route exact path='/menu' render={() => <Menu delights={this.state.delights} />} />
+                    <Route path='/contact' component={Contact} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer/>

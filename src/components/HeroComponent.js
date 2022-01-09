@@ -2,7 +2,6 @@ import React from 'react';
 import FoodVideo from './video/bread.mp4';
 import {Button} from './Button';
 
-
 function HeroComponent() {
     return (
         <div className='full-screen-video-container'>
@@ -19,12 +18,11 @@ function HeroComponent() {
                 buttonSize='btn--large'
                 onClick={console.log('I want to Open Menu Tab')}>
                     GET MENU 
+                   
             </Button>
             </div>
         </div> 
         );
 }
-
-
 
 export default HeroComponent;

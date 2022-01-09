@@ -5,47 +5,39 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
+      <section className='footer-message'>
         <p className='footer-subscription-heading'>
-        Let me know which delights I can make for you!
+          Let me know which delights I can make for you!
         </p>
 
-        <Button buttonStyle='btn--outline'>Order</Button>
+        <Button buttonStyle='btn--outline'>Contact</Button>
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Browse</h2>
-            <ul className="list-unstyled">
-                <li><a href="/home">Home</a></li>
-                <li><a href="/menu">Menu</a></li>
-                <li><a href="/about">Events</a></li>
-              
-                </ul>
+            <h2>Get Social</h2>
+            <a role="button" className="btn btn-link" href="https://www.facebook.com/PastryChefCatherine">
+              Facebook</a>
           </div>
           <div class='footer-link-items'>
-            <h2>Contact</h2>
-            <Link to='/'>Call</Link>
-            <Link to='/'>Email</Link>
-          
-
+            <h2> Text Your Order</h2>
+            <a role="button" className="btn btn-link" href="tel:+18305702215">
+               830-570-2215</a>
           </div>
         </div>
         <div className='footer-link-wrapper'>
-         
           <div class='footer-link-items'>
-            <h2>Get Social</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-          </div>
+            <h2>Email</h2>
+            <a role="button" className="btn btn-link" href="mailto:fakeemail@fakeemail.co">
+              catherinepisd@gmail.com</a>
+         </div>
         </div>
       </div>
-    
-        <div>
-          <small class='website-rights'> <i className='fa fa-birthday-cake fa-fw'/>
-          <span class="ml-2">S&S Delights by Catherine © 2022</span></small>        
-        </div>
-     
+      <div>
+        <small class='website-rights'> <i className='fa fa-birthday-cake fa-fw' />
+          <span class="ml-2">S&S Delights by Catherine © 2022</span></small>
+      </div>
+
     </div>
   );
 }

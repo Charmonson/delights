@@ -42,13 +42,8 @@ class Header extends Component {
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/about">
-                                        Events
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" to="/order">
-                                         Order
+                                    <NavLink className="nav-link" to="/contact">
+                                         Contact
                                     </NavLink>
                                 </NavItem>
                             </Nav>

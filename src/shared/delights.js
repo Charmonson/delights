@@ -58,7 +58,7 @@ export const DELIGHTS = [
         {	
         id:4,
             name:"No Birthday Cupcake",
-            image: require('../images/chocolate.jpg'),
+            image: require('../images/caramel.jpg'),
             description: "Red velvet goodness for no birthday days.",
             information: [
                 {
@@ -83,4 +83,46 @@ export const DELIGHTS = [
                   
                 },]
         },
+        {
+            id:6,
+                name:"Vanilla Delight",
+                image: require('../images/caramel.jpg'),
+                description: "Flavorful elegance for every day.",
+                information: [
+                    {
+                        id: 4,
+                        text: "Delightful Flavor!",
+                        author: "Ana",
+                        allergens: "Allergens: Milk & Wheat",
+                      
+                    },]
+            },
+            {
+                id:7,
+                    name:"Vanilla Delight",
+                    image: require('../images/caramel.jpg'),
+                    description: "Flavorful elegance for every day.",
+                    information: [
+                        {
+                            id: 4,
+                            text: "Delightful Flavor!",
+                            author: "Ana",
+                            allergens: "Allergens: Milk & Wheat",
+                          
+                        },]
+            },
+            {
+                id:8,
+                    name:"Vanilla Delight",
+                    image: require('../images/caramel.jpg'),
+                    description: "Flavorful elegance for every day.",
+                    information: [
+                        {
+                            id: 4,
+                            text: "Delightful Flavor!",
+                            author: "Ana",
+                            allergens: "Allergens: Milk & Wheat",
+                          
+                        },]
+            },       
 ];

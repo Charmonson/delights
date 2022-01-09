@@ -11,14 +11,15 @@ function HeroComponent() {
             </video> 
 
             <div class= 'full-screen-video-content'>
+
+            <h1>Make your Day</h1>
+            <h1>More Delightful!</h1>
             <Button className='btns' 
                 buttonStyle='btn--primary'
                 buttonSize='btn--large'
                 onClick={console.log('I want to Open Menu Tab')}>
                     GET MENU 
             </Button>
-            <h1>Make your day</h1>
-            <h1>More Delightful!</h1>
             </div>
         </div> 
         );

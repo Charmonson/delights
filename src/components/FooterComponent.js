@@ -1,35 +1,53 @@
 import React from 'react';
+import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
-function Footer(props) {
-    return (
-        <footer className="site-footer">
-            <div className="container">
-                <div className="row">             
-                    <div className="col-4 col-sm-2 offset-1">
-                        <h5>Links</h5>
-                        <ul className="list-unstyled">
-                            <li><a href="/home">Home</a></li>
-                            <li><a href="/menu">Menu</a></li>
-                            <li><a href="/about">About</a></li>
-                            <li><a href="/order">Order</a></li>
-                        </ul>
-                    </div>
-                    <div className="col-6 col-sm-3 text-center">
-                        <h5>Social</h5>
-                        <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i className="fa fa-instagram" /></a>{' '}
-                        <a className="btn btn-social-icon btn-facebook" href="http://www.facebook.com/"><i className="fa fa-facebook" /></a>{' '}
-                        <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter" /></a>{' '}
-                        <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube" /></a> 
-                    </div>
-                    <div className="col-sm-4 text-center">
-                        <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone" /> 1-206-555-1234</a><br />
-                        <a role="button" className="btn btn-link" href="mailto:notreal@notreal.co"><i className="fa fa-envelope-o" /> campsites@nucamp.co</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    );
+function Footer() {
+  return (
+    <div className='footer-container'>
+      <section className='footer-subscription'>
+        <p className='footer-subscription-heading'>
+        Let me know which delights I can make for you!
+        </p>
+
+        <Button buttonStyle='btn--outline'>Order</Button>
+      </section>
+      <div class='footer-links'>
+        <div className='footer-link-wrapper'>
+          <div class='footer-link-items'>
+            <h2>Browse</h2>
+            <ul className="list-unstyled">
+                <li><a href="/home">Home</a></li>
+                <li><a href="/menu">Menu</a></li>
+                <li><a href="/about">Events</a></li>
+              
+                </ul>
+          </div>
+          <div class='footer-link-items'>
+            <h2>Contact</h2>
+            <Link to='/'>Call</Link>
+            <Link to='/'>Email</Link>
+          
+
+          </div>
+        </div>
+        <div className='footer-link-wrapper'>
+         
+          <div class='footer-link-items'>
+            <h2>Get Social</h2>
+            <Link to='/'>Instagram</Link>
+            <Link to='/'>Facebook</Link>
+          </div>
+        </div>
+      </div>
+    
+        <div>
+          <small class='website-rights'> <i className='fa fa-birthday-cake fa-fw'/>
+          <span class="ml-2">S&S Delights by Catherine © 2022</span></small>        
+        </div>
+     
+    </div>
+  );
 }
 
 export default Footer;

@@ -111,6 +111,19 @@ h1 {
 
 }
 
+
+@media only screen and (min-width: 1024px) {
+  .full-screen-video-container video {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cards__item {
+    margin-bottom: 2rem;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .full-screen-video-content > h1 {
     position: center;

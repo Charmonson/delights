@@ -25,7 +25,7 @@ h1 {
 .card-title {
   font: 600 3rem "Tangerine";
 }
-/*?? will use?*/
+
 .card-img-overlay .card-title {
   color: purple;
   background-color: rgba(214,205,222, 0.9);
@@ -45,7 +45,7 @@ h1 {
 
 .navbar-brand 
 {
-  font: 500 3rem "tangerine";
+  font: 500 4rem "tangerine";
  
 }
 
@@ -62,13 +62,13 @@ h1 {
 
 @media screen and (max-width: 960px) {
   .navbar-brand{
-    font: 500 2rem "tangerine";
+    font: 500 3rem "tangerine";
   }
 }
 
 @media screen and (max-width: 768px) {
   .navbar-brand { 
-    font: 500 1rem "tangerine";
+    font: 500 2rem "tangerine";
   }
 }
 
@@ -127,7 +127,7 @@ h1 {
 @media screen and (max-width: 960px) {
   .full-screen-video-content > h1 {
     position: center;
-    font-size: 60px;
+    font-size: 90px;
  
   }
 }
@@ -135,7 +135,22 @@ h1 {
 @media screen and (max-width: 768px) {
   .full-screen-video-content > h1 { 
     position: center;
-    font-size: 40px;
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .h1 {
+    position: center;
+    font-size: 60px;
+ 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .h1 { 
+    position: center;
+    font-size: 30px;
   }
 }
 

@@ -8,7 +8,7 @@ function HeroComponent() {
   
     return (
         <div className='full-screen-video-container'>
-            <video autoPlay loop muted>
+            <video autoPlay loop muted playsinline>
                 <source src={FoodVideo} type='video/mp4'/>     
             </video> 
 

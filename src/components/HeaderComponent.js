@@ -6,7 +6,6 @@ class Header extends Component {
 
     constructor(props) {
         super(props);
-
         this.toggleNav = this.toggleNav.bind(this); //ensures that this refers correctly to component
         this.state = {
           isNavOpen: false
@@ -31,17 +30,17 @@ class Header extends Component {
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
-                                <NavItem>
+                                <NavItem onClick={this.toggleNav}>
                                     <NavLink className="nav-link" to="/home">
                                         Home
                                     </NavLink>
-                                </NavItem>
-                                <NavItem>
+                                </NavItem >
+                                <NavItem onClick={this.toggleNav} >
                                     <NavLink className="nav-link" to="/menu">
                                         Menu
                                     </NavLink>
                                 </NavItem>
-                                <NavItem>
+                                <NavItem onClick={this.toggleNav}>
                                     <NavLink className="nav-link" to="/contact">
                                          Contact
                                     </NavLink>

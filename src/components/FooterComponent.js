@@ -10,11 +10,12 @@ function Footer() {
         <p className='footer-subscription-heading'>
           Let me know which delights I can make for you!
         </p>
+       {/* 
         <Button buttonStyle='btn--outline'>
             <NavLink className="nav-link2" to={"/contact"}>
                 Contact
             </NavLink>
-            </Button>
+       </Button>*/}
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
@@ -33,7 +34,7 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>Email</h2>
             <a role="button" className="btn btn-link" href="mailto:fakeemail@fakeemail.co">
-              catherinepisd@gmail.com</a>
+              catherinessweetandsavory@gmail.com</a>
          </div>
         </div>
       </div>

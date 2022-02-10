@@ -1,5 +1,5 @@
 import React from 'react';
-import FoodVideo from './video/bread.mp4';
+import FoodVideo from './video/delights_0.mov';
 import {Button} from './Button';
 import { NavLink } from 'react-router-dom';
 

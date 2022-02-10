@@ -25,7 +25,7 @@ class Header extends Component {
                     <div className="container">
                         <NavbarBrand className="mr-auto" href="/"> 
                         <i className='fa fa-birthday-cake fa-fw'/>
-                        <span class="ml-1">Sweet & Savory Delights by Catherine</span> 
+                        <span class="ml-1">Catherine Sweet and Savory</span> 
                         </NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
